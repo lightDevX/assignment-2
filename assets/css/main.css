@@ -1,0 +1,169 @@
+header {
+    background-color: black;
+
+    .container {
+        .header {
+            padding-top: 56px;
+
+            .logo a {
+                color: var(--primary-color);
+                font-family: Inter;
+                font-size: 36px;
+                font-weight: 800;
+                line-height: 120%;
+                text-align: left;
+            }
+
+            .navbar {
+                border: 1px solid rgba(255, 255, 255, 0.1);
+                border-radius: 40px;
+                padding: 12px;
+
+                .nav-link {
+                    color: rgb(255, 255, 255);
+                    font-family: Inter;
+                    font-size: 18px;
+                    font-weight: 400;
+                    line-height: 120%;
+                    letter-spacing: 0%;
+                    text-align: left;
+                }
+            }
+        }
+    }
+}
+
+.hero-section {
+    background: #000;
+
+    .container {
+        .hero {
+            .hero-content {
+                width: 550px;
+                height: auto;
+
+                .hero-title {
+                    color: rgb(255, 255, 255);
+                    font-family: Inter;
+                    font-size: 78px;
+                    font-weight: 900;
+                    line-height: 120%;
+                    letter-spacing: 0%;
+                    text-align: left;
+                    
+
+                }
+
+                .hero-description {
+                    color: rgba(255, 255, 255, 0.5);
+                    font-family: Inter;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 24px;
+                    letter-spacing: 0.5px;
+                    text-align: left;
+                }
+
+                .here-button {
+                    button {
+                        color: rgb(255, 255, 255);
+                        font-family: Inter;
+                        font-size: 18px;
+                        font-weight: 600;
+                        line-height: 22px;
+                        letter-spacing: 0px;
+                        text-align: center;
+
+                        .btn-secondery {
+                            background-color: transparent;
+                        }
+                    }
+                }
+            }
+
+            .hero-image {
+                width: 350px;
+                height: 580px;
+
+                img {
+                    width: 100%;
+
+
+                }
+
+                .top-absolute {
+                    top: 316px;
+                    right: 200px;
+                    color: white;
+                    box-sizing: border-box;
+                    border: 1px solid rgba(255, 255, 255, 0.1);
+                    border-radius: 12px;
+                    backdrop-filter: blur(20px);
+                    background: rgba(48, 48, 48, 0.54);
+                    width: 206px;
+                    height: 96px;
+                }
+
+                .bottom-absolute {
+                    color: #fff;
+                    top: 550px;
+                    right: 512px;
+                    box-sizing: border-box;
+                    border: 1px solid rgba(255, 255, 255, 0.1);
+                    border-radius: 12px;
+                    backdrop-filter: blur(20px);
+                    background: rgba(48, 48, 48, 0.54);
+                    width: 206px;
+                    height: 96px;
+
+                }
+            }
+        }
+    }
+}
+
+
+
+
+/* @media screen and (max-width:576px) {
+    header {
+        .container {
+            margin: auto;
+            padding: 0 20px;
+
+            .header {
+                .navbar {
+                    .d-none {
+                        display: inline-flex;
+                    }
+
+                    .nav-link {
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+
+    .hero-section {
+        .container {
+            .hero {
+                flex-direction: column;
+                gap: 40px;
+
+                .hero-content {
+                    width: 352px;
+                }
+
+                .hero-image {
+                    width: 356px;
+                    height: 326px;
+
+                    img {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+} */
